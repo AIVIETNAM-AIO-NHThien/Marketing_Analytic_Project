@@ -1,0 +1,2689 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0226.1626                               -->
+<workbook original-version='18.1' source-build='2026.1.0 (20261.26.0226.1626)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <BasicButtonObject />
+    <BasicButtonObjectTextSupport />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet2 (Data_new_version)' inline='true' name='federated.147e8r802g1cs71aa7atp0muwm84' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Data_new_version' name='excel-direct.160b2qz08kj11y11dtme91a3qmoy'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Project_Marketing_AIO/excel/Data_new_version.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.160b2qz08kj11y11dtme91a3qmoy' name='Sheet2' table='[Sheet2$]' type='table'>
+          <columns gridOrigin='A1:AC10001:no:A1:AC10001:0' header='yes' outcome='6'>
+            <column datatype='string' name='Campaign_ID' ordinal='0' />
+            <column datatype='string' name='Brand' ordinal='1' />
+            <column datatype='string' name='Campaign_Type' ordinal='2' />
+            <column datatype='string' name='Target_Audience' ordinal='3' />
+            <column datatype='string' name='Channel_Used' ordinal='4' />
+            <column datatype='integer' name='Duration' ordinal='5' />
+            <column datatype='string' name='Language' ordinal='6' />
+            <column datatype='string' name='Customer_Segment' ordinal='7' />
+            <column datatype='date' name='Campaign_Date' ordinal='8' />
+            <column datatype='integer' name='Impressions' ordinal='9' />
+            <column datatype='integer' name='Clicks' ordinal='10' />
+            <column datatype='integer' name='Leads' ordinal='11' />
+            <column datatype='integer' name='Conversions' ordinal='12' />
+            <column datatype='integer' name='Revenue' ordinal='13' />
+            <column datatype='real' name='CPA' ordinal='14' />
+            <column datatype='real' name='Total_Spend' ordinal='15' />
+            <column datatype='real' name='Profit' ordinal='16' />
+            <column datatype='real' name='CTR' ordinal='17' />
+            <column datatype='real' name='Lead_Rate' ordinal='18' />
+            <column datatype='real' name='Conversion_Rate' ordinal='19' />
+            <column datatype='real' name='ROI' ordinal='20' />
+            <column datatype='real' name='Engagement_Score' ordinal='21' />
+            <column datatype='string' name='ROI_Category' ordinal='22' />
+            <column datatype='string' name='Campaign_Month' ordinal='23' />
+            <column datatype='string' name='Campaign_Quater' ordinal='24' />
+            <column datatype='string' name='Primary_Channel' ordinal='25' />
+            <column datatype='integer' name='Channel_Count' ordinal='26' />
+            <column datatype='string' name='Duration_Group' ordinal='27' />
+            <column datatype='integer' name='Revenue_Per_Conversion' ordinal='28' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AC10001:no:A1:AC10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Campaign_ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Campaign_ID]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Campaign_ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Brand</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Brand]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Brand</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Campaign_Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Campaign_Type]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Campaign_Type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Target_Audience</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Target_Audience]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Target_Audience</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Channel_Used</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Channel_Used]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Channel_Used</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Duration</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Duration]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Duration</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Language</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Language]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Language</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer_Segment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer_Segment]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Customer_Segment</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Campaign_Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Campaign_Date]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Campaign_Date</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Impressions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Impressions]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Impressions</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clicks</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Clicks]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Clicks</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Leads</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Leads]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Leads</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conversions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Conversions]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Conversions</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revenue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Revenue]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Revenue</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CPA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CPA]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>CPA</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Spend</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total_Spend]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Total_Spend</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Profit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Profit]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Profit</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CTR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CTR]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>CTR</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lead_Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Lead_Rate]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Lead_Rate</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conversion_Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Conversion_Rate]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Conversion_Rate</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ROI]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>ROI</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Engagement_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Engagement_Score]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Engagement_Score</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROI_Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ROI_Category]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>ROI_Category</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Campaign_Month</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Campaign_Month]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Campaign_Month</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Campaign_Quater</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Campaign_Quater]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Campaign_Quater</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primary_Channel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Primary_Channel]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Primary_Channel</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Channel_Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Channel_Count]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Channel_Count</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Duration_Group</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Duration_Group]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Duration_Group</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revenue_Per_Conversion</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Revenue_Per_Conversion]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Revenue_Per_Conversion</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Weighted ROI' datatype='real' name='[Calculation_0483265874055168]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Revenue]) / SUM([Total_Spend]) - 1' />
+      </column>
+      <column caption='CPC' datatype='real' name='[Calculation_0483265874141185]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Total_Spend] / [Clicks]' />
+      </column>
+      <column caption='Weighted_CPA ' datatype='real' name='[Calculation_0483265874264066]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Total_Spend]) /&#13;&#10;SUM([Conversions])' />
+      </column>
+      <column caption='PlaceHolder' datatype='integer' name='[Calculation_0483265898741763]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MIN(1)' />
+      </column>
+      <column caption='KPI_WeightedCPA' datatype='real' name='[Calculation_0483265912193028]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Total_Spend]) / SUM([Conversions])' />
+      </column>
+      <column caption='Đối xứng âm' datatype='real' name='[Calculation_0483265919524869]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='- SUM([Measure Values])' />
+      </column>
+      <column caption='Platform' datatype='string' name='[Calculation_0483265956777990]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Primary_Channel] = &apos;Instagram&apos; THEN &apos;Instagram&apos;&#13;&#10;ELSEIF [Primary_Channel] = &apos;Email&apos; THEN &apos;Email&apos;&#13;&#10;ELSE &apos;Other&apos;&#13;&#10;END' />
+      </column>
+      <column caption='Campaign Date' datatype='date' name='[Campaign_Date]' role='dimension' type='ordinal' />
+      <column caption='Campaign ID' datatype='string' name='[Campaign_ID]' role='dimension' type='nominal' />
+      <column caption='Campaign Month' datatype='string' name='[Campaign_Month]' role='dimension' type='nominal' />
+      <column caption='Campaign Quater' datatype='string' name='[Campaign_Quater]' role='dimension' type='nominal' />
+      <column caption='Campaign Type' datatype='string' name='[Campaign_Type]' role='dimension' type='nominal' />
+      <column caption='Channel Count' datatype='integer' name='[Channel_Count]' role='measure' type='quantitative' />
+      <column caption='Channel Used' datatype='string' name='[Channel_Used]' role='dimension' type='nominal' />
+      <column caption='Conversion Rate' datatype='real' name='[Conversion_Rate]' role='measure' type='quantitative' />
+      <column caption='Customer Segment' datatype='string' name='[Customer_Segment]' role='dimension' type='nominal' />
+      <column caption='Duration Group' datatype='string' name='[Duration_Group]' role='dimension' type='nominal' />
+      <column caption='Engagement Score' datatype='real' name='[Engagement_Score]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Impressions]' role='measure' type='quantitative' />
+      <column caption='Lead Rate' datatype='real' name='[Lead_Rate]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Leads]' role='measure' type='quantitative' />
+      <column caption='Primary Channel' datatype='string' name='[Primary_Channel]' role='dimension' type='nominal' />
+      <column caption='ROI Category' datatype='string' name='[ROI_Category]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Revenue]' role='measure' type='quantitative' />
+      <column caption='Revenue Per Conversion' datatype='integer' name='[Revenue_Per_Conversion]' role='measure' type='quantitative' />
+      <column caption='Target Audience' datatype='string' name='[Target_Audience]' role='dimension' type='nominal' />
+      <column caption='Total Spend' datatype='real' name='[Total_Spend]' role='measure' type='quantitative' />
+      <column caption='Sheet2' datatype='table' name='[__tableau_internal_object_id__].[Sheet2_786FB5FAF3E040C6B7814836D024A835]' role='measure' type='quantitative' />
+      <column-instance column='[Campaign_Type]' derivation='None' name='[none:Campaign_Type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Impressions]' derivation='Sum' name='[sum:Impressions:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Leads]' derivation='Sum' name='[sum:Leads:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Revenue]' derivation='Sum' name='[sum:Revenue:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total_Spend]' derivation='Sum' name='[sum:Total_Spend:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_1lp8eec0z9jypk1ago66c10avjce.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='08/04/2026 12:02:17 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Campaign_ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Campaign_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Campaign_ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>165525</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Brand</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Brand]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Brand</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Campaign_Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Campaign_Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Campaign_Type</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Target_Audience</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Target_Audience]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Target_Audience</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Channel_Used</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Channel_Used]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Channel_Used</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>339</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Duration</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Duration]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Duration</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet2</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Language</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Language]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Language</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer_Segment</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer_Segment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer_Segment</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Campaign_Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Campaign_Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Campaign_Date</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet2</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1125</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Impressions</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Impressions]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Impressions</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet2</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>121250</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Clicks</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Clicks]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Clicks</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet2</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>34847</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Leads</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Leads]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Leads</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sheet2</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18673</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Conversions</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Conversions]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Conversions</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Sheet2</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10755</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Revenue</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Revenue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Revenue</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Sheet2</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>130108</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CPA</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[CPA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CPA</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Sheet2</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>103530</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total_Spend</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Total_Spend]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total_Spend</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Sheet2</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>165525</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Profit</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Profit]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Profit</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Sheet2</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>165525</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CTR</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[CTR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CTR</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Sheet2</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6454</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Lead_Rate</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Lead_Rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Lead_Rate</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Sheet2</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20309</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Conversion_Rate</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Conversion_Rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Conversion_Rate</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Sheet2</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21460</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ROI</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ROI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ROI</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Sheet2</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4524</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Engagement_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Engagement_Score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Engagement_Score</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Sheet2</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12198</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ROI_Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ROI_Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ROI_Category</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Sheet2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Campaign_Month</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Campaign_Month]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Campaign_Month</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Sheet2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Campaign_Quater</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Campaign_Quater]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Campaign_Quater</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Sheet2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Primary_Channel</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Primary_Channel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Primary_Channel</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Sheet2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Channel_Count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Channel_Count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Channel_Count</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Sheet2</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Duration_Group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Duration_Group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Duration_Group</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Sheet2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Revenue_Per_Conversion</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Revenue_Per_Conversion]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Revenue_Per_Conversion</remote-alias>
+              <ordinal>28</ordinal>
+              <family>Sheet2</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2673</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet2_786FB5FAF3E040C6B7814836D024A835]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Impressions:qk]&quot;</bucket>
+            </map>
+            <map to='#529ee0'>
+              <bucket>&quot;[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Total_Spend:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Total_Spend:qk]:1&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Leads:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Campaign_Type:nk]' type='palette'>
+            <map to='#bab0ac'>
+              <bucket>&quot;Paid Ads&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Email&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Influencer&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;SEO&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Social Media&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet2' id='Sheet2_786FB5FAF3E040C6B7814836D024A835'>
+            <properties context=''>
+              <relation connection='excel-direct.160b2qz08kj11y11dtme91a3qmoy' name='Sheet2' table='[Sheet2$]' type='table'>
+                <columns gridOrigin='A1:AC10001:no:A1:AC10001:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Campaign_ID' ordinal='0' />
+                  <column datatype='string' name='Brand' ordinal='1' />
+                  <column datatype='string' name='Campaign_Type' ordinal='2' />
+                  <column datatype='string' name='Target_Audience' ordinal='3' />
+                  <column datatype='string' name='Channel_Used' ordinal='4' />
+                  <column datatype='integer' name='Duration' ordinal='5' />
+                  <column datatype='string' name='Language' ordinal='6' />
+                  <column datatype='string' name='Customer_Segment' ordinal='7' />
+                  <column datatype='date' name='Campaign_Date' ordinal='8' />
+                  <column datatype='integer' name='Impressions' ordinal='9' />
+                  <column datatype='integer' name='Clicks' ordinal='10' />
+                  <column datatype='integer' name='Leads' ordinal='11' />
+                  <column datatype='integer' name='Conversions' ordinal='12' />
+                  <column datatype='integer' name='Revenue' ordinal='13' />
+                  <column datatype='real' name='CPA' ordinal='14' />
+                  <column datatype='real' name='Total_Spend' ordinal='15' />
+                  <column datatype='real' name='Profit' ordinal='16' />
+                  <column datatype='real' name='CTR' ordinal='17' />
+                  <column datatype='real' name='Lead_Rate' ordinal='18' />
+                  <column datatype='real' name='Conversion_Rate' ordinal='19' />
+                  <column datatype='real' name='ROI' ordinal='20' />
+                  <column datatype='real' name='Engagement_Score' ordinal='21' />
+                  <column datatype='string' name='ROI_Category' ordinal='22' />
+                  <column datatype='string' name='Campaign_Month' ordinal='23' />
+                  <column datatype='string' name='Campaign_Quater' ordinal='24' />
+                  <column datatype='string' name='Primary_Channel' ordinal='25' />
+                  <column datatype='integer' name='Channel_Count' ordinal='26' />
+                  <column datatype='string' name='Duration_Group' ordinal='27' />
+                  <column datatype='integer' name='Revenue_Per_Conversion' ordinal='28' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='CTR_Date'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (Data_new_version)' name='federated.147e8r802g1cs71aa7atp0muwm84' />
+          </datasources>
+          <datasource-dependencies datasource='federated.147e8r802g1cs71aa7atp0muwm84'>
+            <column datatype='real' name='[CTR]' role='measure' type='quantitative' />
+            <column caption='Campaign Date' datatype='date' name='[Campaign_Date]' role='dimension' type='ordinal' />
+            <column-instance column='[Campaign_Date]' derivation='Day' name='[dy:Campaign_Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[CTR]' derivation='Sum' name='[sum:CTR:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:CTR:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='width' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:CTR:qk]' value='92' />
+            <format attr='display' class='1' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:CTR:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.147e8r802g1cs71aa7atp0muwm84].[dy:Campaign_Date:ok]' value='30' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:CTR:qk]' value='*0.00' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#ffffff' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:CTR:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#2d9e6e' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:CTR:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.53773480653762817' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.147e8r802g1cs71aa7atp0muwm84].[sum:CTR:qk] + [federated.147e8r802g1cs71aa7atp0muwm84].[sum:CTR:qk])</rows>
+        <cols>[federated.147e8r802g1cs71aa7atp0muwm84].[dy:Campaign_Date:ok]</cols>
+      </table>
+      <simple-id uuid='{9F75B9D4-B65D-409B-9930-3C87FB78325B}' />
+    </worksheet>
+    <worksheet name='Data Table'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (Data_new_version)' name='federated.147e8r802g1cs71aa7atp0muwm84' />
+          </datasources>
+          <datasource-dependencies datasource='federated.147e8r802g1cs71aa7atp0muwm84'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column caption='Campaign Type' datatype='string' name='[Campaign_Type]' role='dimension' type='nominal' />
+            <column caption='Customer Segment' datatype='string' name='[Customer_Segment]' role='dimension' type='nominal' />
+            <column datatype='real' name='[ROI]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Revenue]' role='measure' type='quantitative' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Campaign_Type]' derivation='None' name='[none:Campaign_Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Customer_Segment]' derivation='None' name='[none:Customer_Segment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[ROI]' derivation='Sum' name='[sum:ROI:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Revenue]' derivation='Sum' name='[sum:Revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.147e8r802g1cs71aa7atp0muwm84].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.147e8r802g1cs71aa7atp0muwm84].[sum:ROI:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <alphabetic-sort column='[federated.147e8r802g1cs71aa7atp0muwm84].[:Measure Names]' direction='ASC' />
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.147e8r802g1cs71aa7atp0muwm84].[none:Campaign_Type:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:ROI:qk]' shelf='rows'>
+              <sort-filter-info>
+                <sort-filter level-name='[federated.147e8r802g1cs71aa7atp0muwm84].[none:Customer_Segment:nk]' member-value='&quot;Premium Shoppers&quot;' />
+              </sort-filter-info>
+            </shelf-sort-v2>
+          </shelf-sorts>
+          <slices>
+            <column>[federated.147e8r802g1cs71aa7atp0muwm84].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]' value='n#,##0,,,.00B;-#,##0,,,.00B' />
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:ROI:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.147e8r802g1cs71aa7atp0muwm84].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true'>([federated.147e8r802g1cs71aa7atp0muwm84].[none:Brand:nk] / [federated.147e8r802g1cs71aa7atp0muwm84].[none:Campaign_Type:nk])</rows>
+        <cols>([federated.147e8r802g1cs71aa7atp0muwm84].[none:Customer_Segment:nk] / [federated.147e8r802g1cs71aa7atp0muwm84].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{7B5C47C7-B020-4767-89B9-080CD7A6001E}' />
+    </worksheet>
+    <worksheet name='Date Revenue'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (Data_new_version)' name='federated.147e8r802g1cs71aa7atp0muwm84' />
+          </datasources>
+          <datasource-dependencies datasource='federated.147e8r802g1cs71aa7atp0muwm84'>
+            <column caption='Campaign Date' datatype='date' name='[Campaign_Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Revenue]' role='measure' type='quantitative' />
+            <column-instance column='[Campaign_Date]' derivation='Day' name='[dy:Campaign_Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Revenue]' derivation='Sum' name='[sum:Revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]' field-type='quantitative' fold='true' max='3151811290' min='-15375671' range-type='fixed' scope='rows' type='space' />
+            <format attr='width' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]' value='38' />
+            <encoding attr='space' class='0' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]' field-type='quantitative' max='3134948802' min='-15293410' range-type='fixed' scope='rows' type='space' />
+            <format attr='display' class='1' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.147e8r802g1cs71aa7atp0muwm84].[dy:Campaign_Date:ok]' value='32' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]' value='n#,##0,,,.00B;-#,##0,,,.00B' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.3513259887695312' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.3513259887695312' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.80160218477249146' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk] + [federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk])</rows>
+        <cols>[federated.147e8r802g1cs71aa7atp0muwm84].[dy:Campaign_Date:ok]</cols>
+      </table>
+      <simple-id uuid='{FAFACF6D-7850-42A2-AF16-EDD4203367AE}' />
+    </worksheet>
+    <worksheet name='Doughnut chart'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (Data_new_version)' name='federated.147e8r802g1cs71aa7atp0muwm84' />
+          </datasources>
+          <datasource-dependencies datasource='federated.147e8r802g1cs71aa7atp0muwm84'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column caption='PlaceHolder' datatype='integer' name='[Calculation_0483265898741763]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MIN(1)' />
+            </column>
+            <column datatype='integer' name='[Revenue]' role='measure' type='quantitative' />
+            <column caption='Total Spend' datatype='real' name='[Total_Spend]' role='measure' type='quantitative' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Revenue]' derivation='Sum' name='[sum:Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total_Spend]' derivation='Sum' name='[sum:Total_Spend:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_0483265898741763]' derivation='User' name='[usr:Calculation_0483265898741763:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.147e8r802g1cs71aa7atp0muwm84].[usr:Calculation_0483265898741763:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='width' field='[federated.147e8r802g1cs71aa7atp0muwm84].[usr:Calculation_0483265898741763:qk]' value='39' />
+            <format attr='display' class='1' field='[federated.147e8r802g1cs71aa7atp0muwm84].[usr:Calculation_0483265898741763:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.147e8r802g1cs71aa7atp0muwm84].[usr:Calculation_0483265898741763:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' value='727' />
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Total_Spend:qk]' value='n#,##0,,,.00B;-#,##0,,,.00B' />
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]' value='n#,##0,,,.00B;-#,##0,,,.00B' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Total_Spend:qk]' value='n#,##0,,,.00B;-#,##0,,,.00B' />
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]' value='n#,##0,,,.00B;-#,##0,,,.00B' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.7251380681991577' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.147e8r802g1cs71aa7atp0muwm84].[usr:Calculation_0483265898741763:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.147e8r802g1cs71aa7atp0muwm84].[none:Brand:nk]' />
+              <wedge-size column='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]' />
+              <text column='[federated.147e8r802g1cs71aa7atp0muwm84].[none:Brand:nk]' />
+              <text column='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Total_Spend:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.88955801725387573' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.147e8r802g1cs71aa7atp0muwm84].[usr:Calculation_0483265898741763:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.42779004573822021' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.147e8r802g1cs71aa7atp0muwm84].[usr:Calculation_0483265898741763:qk] + [federated.147e8r802g1cs71aa7atp0muwm84].[usr:Calculation_0483265898741763:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{0FF0B589-CF69-4D08-BA0E-E649F5483463}' />
+    </worksheet>
+    <worksheet name='Funnel'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (Data_new_version)' name='federated.147e8r802g1cs71aa7atp0muwm84' />
+          </datasources>
+          <datasource-dependencies datasource='federated.147e8r802g1cs71aa7atp0muwm84'>
+            <column datatype='integer' name='[Clicks]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Conversions]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Impressions]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Leads]' role='measure' type='quantitative' />
+            <column-instance column='[Clicks]' derivation='Sum' name='[sum:Clicks:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Conversions]' derivation='Sum' name='[sum:Conversions:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Impressions]' derivation='Sum' name='[sum:Impressions:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Leads]' derivation='Sum' name='[sum:Leads:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.147e8r802g1cs71aa7atp0muwm84].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Impressions:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Clicks:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Leads:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Conversions:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.147e8r802g1cs71aa7atp0muwm84].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Impressions:qk]&quot;</bucket>
+              <bucket>&quot;[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Clicks:qk]&quot;</bucket>
+              <bucket>&quot;[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Leads:qk]&quot;</bucket>
+              <bucket>&quot;[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Conversions:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.147e8r802g1cs71aa7atp0muwm84].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.147e8r802g1cs71aa7atp0muwm84].[Multiple Values]' field-type='quantitative' reverse='true' scope='cols' type='space' />
+            <format attr='height' field='[federated.147e8r802g1cs71aa7atp0muwm84].[Multiple Values]' value='11' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.147e8r802g1cs71aa7atp0muwm84].[:Measure Names]' value='33' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[Multiple Values]' value='n#,##0,,,.00B;-#,##0,,,.00B' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='469' />
+                <format attr='maxwidth' value='469' />
+                <format attr='minheight' value='132' />
+                <format attr='maxheight' value='132' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.147e8r802g1cs71aa7atp0muwm84].[Multiple Values]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.147e8r802g1cs71aa7atp0muwm84].[Multiple Values]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.147e8r802g1cs71aa7atp0muwm84].[:Measure Names]</rows>
+        <cols>([federated.147e8r802g1cs71aa7atp0muwm84].[Multiple Values] + [federated.147e8r802g1cs71aa7atp0muwm84].[Multiple Values])</cols>
+      </table>
+      <simple-id uuid='{9B3B25B4-57F5-4258-8E48-84A9ABDFA85F}' />
+    </worksheet>
+    <worksheet name='KPI_AvgCPC'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (Data_new_version)' name='federated.147e8r802g1cs71aa7atp0muwm84' />
+          </datasources>
+          <datasource-dependencies datasource='federated.147e8r802g1cs71aa7atp0muwm84'>
+            <column caption='CPC' datatype='real' name='[Calculation_0483265874141185]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Total_Spend] / [Clicks]' />
+            </column>
+            <column datatype='integer' name='[Clicks]' role='measure' type='quantitative' />
+            <column caption='Total Spend' datatype='real' name='[Total_Spend]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_0483265874141185]' derivation='Avg' name='[avg:Calculation_0483265874141185:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' value='center' />
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[avg:Calculation_0483265874141185:qk]' value='*0.00' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='15' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.147e8r802g1cs71aa7atp0muwm84].[avg:Calculation_0483265874141185:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontalignment='0' fontname='Benton Sans Book'>KPI_AvgCPC</run>
+                <run><![CDATA[
+<[federated.147e8r802g1cs71aa7atp0muwm84].[avg:Calculation_0483265874141185:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{FA27DD3D-762D-43DF-8EEC-23565BF4FC30}' />
+    </worksheet>
+    <worksheet name='KPI_AvgCTR'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (Data_new_version)' name='federated.147e8r802g1cs71aa7atp0muwm84' />
+          </datasources>
+          <datasource-dependencies datasource='federated.147e8r802g1cs71aa7atp0muwm84'>
+            <column datatype='real' name='[CTR]' role='measure' type='quantitative' />
+            <column-instance column='[CTR]' derivation='Avg' name='[avg:CTR:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' value='center' />
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[avg:CTR:qk]' value='*0.00' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='15' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.147e8r802g1cs71aa7atp0muwm84].[avg:CTR:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontalignment='0' fontname='Benton Sans Book'>KPI_AvgCTR</run>
+                <run><![CDATA[
+<[federated.147e8r802g1cs71aa7atp0muwm84].[avg:CTR:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{ED565D3B-C2F3-4D50-9266-E791463DAB88}' />
+    </worksheet>
+    <worksheet name='KPI_WeightedCPA'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (Data_new_version)' name='federated.147e8r802g1cs71aa7atp0muwm84' />
+          </datasources>
+          <datasource-dependencies datasource='federated.147e8r802g1cs71aa7atp0muwm84'>
+            <column caption='KPI_WeightedCPA' datatype='real' name='[Calculation_0483265912193028]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Total_Spend]) / SUM([Conversions])' />
+            </column>
+            <column datatype='integer' name='[Conversions]' role='measure' type='quantitative' />
+            <column caption='Total Spend' datatype='real' name='[Total_Spend]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_0483265912193028]' derivation='User' name='[usr:Calculation_0483265912193028:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[usr:Calculation_0483265912193028:qk]' value='*0.00' />
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='15' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.147e8r802g1cs71aa7atp0muwm84].[usr:Calculation_0483265912193028:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontalignment='0' fontname='Benton Sans Book'>KPI_WeightedCPA</run>
+                <run><![CDATA[
+<[federated.147e8r802g1cs71aa7atp0muwm84].[usr:Calculation_0483265912193028:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4EDF6A8B-8D3E-4B76-ADC0-B6D93CDCBB47}' />
+    </worksheet>
+    <worksheet name='Revenue Spend Brand'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (Data_new_version)' name='federated.147e8r802g1cs71aa7atp0muwm84' />
+          </datasources>
+          <datasource-dependencies datasource='federated.147e8r802g1cs71aa7atp0muwm84'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Revenue]' role='measure' type='quantitative' />
+            <column caption='Total Spend' datatype='real' name='[Total_Spend]' role='measure' type='quantitative' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Revenue]' derivation='Sum' name='[sum:Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total_Spend]' derivation='Sum' name='[sum:Total_Spend:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Total_Spend:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='width' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]' value='12' />
+            <format attr='width' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Total_Spend:qk]' value='12' />
+            <format attr='height' field='[federated.147e8r802g1cs71aa7atp0muwm84].[none:Brand:nk]' value='49' />
+            <format attr='display' class='0' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Total_Spend:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.147e8r802g1cs71aa7atp0muwm84].[none:Brand:nk]' value='172' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='16' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]' value='n#,##0,,,.00B;-#,##0,,,.00B' />
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Total_Spend:qk]' value='n#,##0,,,.00B;-#,##0,,,.00B' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.147e8r802g1cs71aa7atp0muwm84].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.147e8r802g1cs71aa7atp0muwm84].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='254' />
+                <format attr='size' value='1.2193922996520996' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Total_Spend:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.147e8r802g1cs71aa7atp0muwm84].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.2193922996520996' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk] + [federated.147e8r802g1cs71aa7atp0muwm84].[sum:Total_Spend:qk])</rows>
+        <cols>[federated.147e8r802g1cs71aa7atp0muwm84].[none:Brand:nk]</cols>
+      </table>
+      <simple-id uuid='{DB422C8B-336B-485E-8996-C202B680B61E}' />
+    </worksheet>
+    <worksheet name='Sheet 16'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B8F85C79-97AA-432E-AE12-DEE661AF24BB}' />
+    </worksheet>
+    <worksheet name='TOTAL CAMPAIGN'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (Data_new_version)' name='federated.147e8r802g1cs71aa7atp0muwm84' />
+          </datasources>
+          <datasource-dependencies datasource='federated.147e8r802g1cs71aa7atp0muwm84'>
+            <column caption='Campaign ID' datatype='string' name='[Campaign_ID]' role='dimension' type='nominal' />
+            <column-instance column='[Campaign_ID]' derivation='Count' name='[cnt:Campaign_ID:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='273' />
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#0000ff' />
+            <format attr='font-size' value='15' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.147e8r802g1cs71aa7atp0muwm84].[cnt:Campaign_ID:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>TOTAL CAMPAIGN&#10;&lt;</run>
+                <run>[federated.147e8r802g1cs71aa7atp0muwm84].[cnt:Campaign_ID:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4825C82A-F0F8-40D1-9687-32B818121A28}' />
+    </worksheet>
+    <worksheet name='TOTAL SPEND'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (Data_new_version)' name='federated.147e8r802g1cs71aa7atp0muwm84' />
+          </datasources>
+          <datasource-dependencies datasource='federated.147e8r802g1cs71aa7atp0muwm84'>
+            <column caption='Total Spend' datatype='real' name='[Total_Spend]' role='measure' type='quantitative' />
+            <column-instance column='[Total_Spend]' derivation='Sum' name='[sum:Total_Spend:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='283' />
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Total_Spend:qk]' value='n#,##0,,,.00B;-#,##0,,,.00B' />
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#0000ff' />
+            <format attr='font-size' value='15' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Total_Spend:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>TOTAL SPEND&#10;&lt;</run>
+                <run>[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Total_Spend:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4F2C6ECA-6EE4-4855-BBFD-04C118EC26C3}' />
+    </worksheet>
+    <worksheet name='Total Revenue'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (Data_new_version)' name='federated.147e8r802g1cs71aa7atp0muwm84' />
+          </datasources>
+          <datasource-dependencies datasource='federated.147e8r802g1cs71aa7atp0muwm84'>
+            <column datatype='integer' name='[Revenue]' role='measure' type='quantitative' />
+            <column-instance column='[Revenue]' derivation='Sum' name='[sum:Revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+            <format attr='text-align' value='center' />
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]' value='n#,##0,,,.00B;-#,##0,,,.00B' />
+            <format attr='width' value='276' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+            <format attr='background-color' value='#0000ff' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f3ebf3' />
+            <format attr='band-size' scope='rows' value='0' />
+            <format attr='band-size' scope='cols' value='0' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#ffffff' />
+            <format attr='font-size' value='15' />
+            <format attr='font-family' value='Tableau Semibold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>TOTAL REVENUE&#10;&lt;</run>
+                <run>[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Revenue:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{6ED878B5-A07D-4D24-A642-616E519BA1AB}' />
+    </worksheet>
+    <worksheet name='Total campaign'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (Data_new_version)' name='federated.147e8r802g1cs71aa7atp0muwm84' />
+          </datasources>
+          <datasource-dependencies datasource='federated.147e8r802g1cs71aa7atp0muwm84'>
+            <column caption='Campaign ID' datatype='string' name='[Campaign_ID]' role='dimension' type='nominal' />
+            <column-instance column='[Campaign_ID]' derivation='Count' name='[cnt:Campaign_ID:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' value='center' />
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[cnt:Campaign_ID:qk]' value='* #,##0,&quot;K&quot;' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='15' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.147e8r802g1cs71aa7atp0muwm84].[cnt:Campaign_ID:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>TOTAL CAMPAIGN&#10;&lt;</run>
+                <run>[federated.147e8r802g1cs71aa7atp0muwm84].[cnt:Campaign_ID:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A0E81F90-FF76-4001-B87E-31E4E4E4C3C9}' />
+    </worksheet>
+    <worksheet name='Total spend type'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (Data_new_version)' name='federated.147e8r802g1cs71aa7atp0muwm84' />
+          </datasources>
+          <datasource-dependencies datasource='federated.147e8r802g1cs71aa7atp0muwm84'>
+            <column caption='Campaign Type' datatype='string' name='[Campaign_Type]' role='dimension' type='nominal' />
+            <column caption='Total Spend' datatype='real' name='[Total_Spend]' role='measure' type='quantitative' />
+            <column-instance column='[Campaign_Type]' derivation='None' name='[none:Campaign_Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total_Spend]' derivation='Sum' name='[sum:Total_Spend:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <natural-sort column='[federated.147e8r802g1cs71aa7atp0muwm84].[none:Campaign_Type:nk]' direction='DESC' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Total_Spend:qk]' value='n#,##0,,,.00B;-#,##0,,,.00B' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' value='#efebe8' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.147e8r802g1cs71aa7atp0muwm84].[none:Campaign_Type:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.147e8r802g1cs71aa7atp0muwm84].[sum:Total_Spend:qk]</rows>
+        <cols>[federated.147e8r802g1cs71aa7atp0muwm84].[none:Campaign_Type:nk]</cols>
+      </table>
+      <simple-id uuid='{D212823D-AB5E-4BB1-8EB2-203970F989CB}' />
+    </worksheet>
+    <worksheet name='Weighted ROI'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (Data_new_version)' name='federated.147e8r802g1cs71aa7atp0muwm84' />
+          </datasources>
+          <datasource-dependencies datasource='federated.147e8r802g1cs71aa7atp0muwm84'>
+            <column caption='Weighted ROI' datatype='real' name='[Calculation_0483265874055168]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Revenue]) / SUM([Total_Spend]) - 1' />
+            </column>
+            <column datatype='integer' name='[Revenue]' role='measure' type='quantitative' />
+            <column caption='Total Spend' datatype='real' name='[Total_Spend]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_0483265874055168]' derivation='User' name='[usr:Calculation_0483265874055168:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='299' />
+            <format attr='text-format' field='[federated.147e8r802g1cs71aa7atp0muwm84].[usr:Calculation_0483265874055168:qk]' value='n#,##0.00;-#,##0.00' />
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='15' />
+            <format attr='color' value='#0000ff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.147e8r802g1cs71aa7atp0muwm84].[usr:Calculation_0483265874055168:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>WEIGHTED ROI&#10;&lt;</run>
+                <run>[federated.147e8r802g1cs71aa7atp0muwm84].[usr:Calculation_0483265874055168:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{8C9AEE2F-CF9D-4BC9-9954-4D3BBFB87A8A}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='TAB_1'>
+      <style />
+      <size maxheight='861' maxwidth='1640' minheight='861' minwidth='1640' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98142' id='11' param='vert' type-v2='layout-flow' w='14573' x='488' y='929'>
+            <zone h='6039' id='12' type-v2='dashboard-object' w='14573' x='488' y='929'>
+              <button action='' button-type='text'>
+                <button-visual-state>
+                  <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                  <format attr='background-color' value='#333333' />
+                </button-visual-state>
+              </button>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='6039' id='13' type-v2='dashboard-object' w='14573' x='488' y='6968'>
+              <button action='' button-type='text'>
+                <button-visual-state>
+                  <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                  <format attr='background-color' value='#333333' />
+                </button-visual-state>
+              </button>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='6039' id='15' type-v2='dashboard-object' w='14573' x='488' y='13007'>
+              <button action='' button-type='text'>
+                <button-visual-state>
+                  <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                  <format attr='background-color' value='#333333' />
+                </button-visual-state>
+              </button>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='6039' id='16' type-v2='dashboard-object' w='14573' x='488' y='19046'>
+              <button action='' button-type='text'>
+                <button-visual-state>
+                  <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                  <format attr='background-color' value='#333333' />
+                </button-visual-state>
+              </button>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='6039' id='17' type-v2='dashboard-object' w='14573' x='488' y='25085'>
+              <button action='' button-type='text'>
+                <button-visual-state>
+                  <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                  <format attr='background-color' value='#333333' />
+                </button-visual-state>
+              </button>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone h='98142' id='18' param='vert' type-v2='layout-flow' w='84451' x='15061' y='929'>
+            <zone fixed-size='300' h='34843' id='22' is-fixed='true' param='horz' type-v2='layout-flow' w='84451' x='15061' y='929' />
+            <zone h='63299' id='21' name='Doughnut chart' show-title='false' w='84451' x='15061' y='35772'>
+              <layout-cache cell-count-w='1' minheight='101' type-h='scalable' type-w='cell' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97714' id='3' param='vert' type-v2='layout-flow' w='95734' x='2133' y='1143' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A6E1C619-CB50-4BA8-9652-49CBB11BD379}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='TAB_2'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones />
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{20BB68DB-ACBE-4F8C-A73C-83B209E6E8BD}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='TAB_3'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones />
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{38A81A8E-E23B-4538-9F0B-CCF7F86D73BB}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='dashboard' name='TAB_1'>
+      <viewpoints>
+        <viewpoint name='Doughnut chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='21' />
+      <simple-id uuid='{ED2B65EB-A0D6-411B-9231-42A2DA4A7068}' />
+    </window>
+    <window class='worksheet' name='Total Revenue'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1949B2EE-A002-4331-98F4-F814240DD5A7}' />
+    </window>
+    <window class='worksheet' name='TOTAL SPEND'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{252AF9F1-318C-497B-AD24-B117DC3A1930}' />
+    </window>
+    <window class='worksheet' name='Weighted ROI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4EC839A0-F31F-41D4-B8F4-849618EBC4D2}' />
+    </window>
+    <window class='worksheet' name='TOTAL CAMPAIGN'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{143CC945-9195-4659-BCD5-8E4B06785BA7}' />
+    </window>
+    <window class='worksheet' name='Revenue Spend Brand'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.147e8r802g1cs71aa7atp0muwm84].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C237FDCA-5AC3-4987-A559-2BC92B349110}' />
+    </window>
+    <window class='worksheet' name='Date Revenue'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A7046317-AA9C-461B-8AA3-3AF701F527DA}' />
+    </window>
+    <window class='worksheet' name='Doughnut chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.147e8r802g1cs71aa7atp0muwm84].[none:Brand:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8460320C-0FBF-4AB8-B279-24836C8B21F2}' />
+    </window>
+    <window class='worksheet' name='Total spend type'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.147e8r802g1cs71aa7atp0muwm84].[none:Campaign_Type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FD4138B4-F702-4439-976E-5154F06AA77F}' />
+    </window>
+    <window class='dashboard' name='TAB_2'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{9F4BAF48-351A-4BD0-8BDD-8F439CFCC7EC}' />
+    </window>
+    <window class='worksheet' name='Total campaign'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2F56BAD4-2912-4715-915E-49F1BF123A6D}' />
+    </window>
+    <window class='worksheet' name='KPI_AvgCTR'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A674B394-2A1C-45E7-9600-9F7AAC214223}' />
+    </window>
+    <window class='worksheet' name='KPI_AvgCPC'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4685975B-9C0B-4567-9673-A707D2C5B529}' />
+    </window>
+    <window class='worksheet' name='KPI_WeightedCPA'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BB12BF1F-4183-444B-BC89-9C1E34993340}' />
+    </window>
+    <window class='worksheet' name='CTR_Date'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DECFA64A-9B98-44A9-A32D-20E810AD9A31}' />
+    </window>
+    <window class='worksheet' name='Funnel'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='33'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FF731421-C399-4762-96BE-ADAD097240FB}' />
+    </window>
+    <window class='worksheet' name='Data Table'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6360BD5F-3F00-45CF-92D3-32F8BF0118F4}' />
+    </window>
+    <window class='dashboard' maximized='true' name='TAB_3'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{C64CADE4-DEBF-4F86-9FD3-6F4A92C3E99D}' />
+    </window>
+    <window class='worksheet' name='Sheet 16'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8ED1A400-5BFF-4E04-BA6B-5A6EB84B20D5}' />
+    </window>
+  </windows>
+</workbook>
